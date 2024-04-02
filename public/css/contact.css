@@ -1,0 +1,49 @@
+
+
+h1{
+    text-align:center;
+    font-size: 30px;
+    color:black;
+    text-shadow:4px 2px 4px grey;
+  }
+  p{
+     text-align:center;
+    font-size: 15px;
+  }
+  
+  h3{
+    text-align:center;
+    font-size:20px;
+   
+  }
+  .rating{
+    margin:5px;
+    background:linear-gradient(#6e7477,#5d5d68);
+   
+  }
+  .category {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color:black;
+}
+
+.category a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+  .userinfo{
+    margin:5px;
+    background:linear-gradient(#555a5c,#48484f);
+  
+    margin-top:2px;
+    text-align:center;
+    font-size:20px;
+  }
+  .feedback button{
+    font-size:20px;
+    color:black;
+    background-color:grey;
+  }

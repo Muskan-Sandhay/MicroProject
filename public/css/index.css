@@ -1,0 +1,140 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* General styles */
+body .main{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.category {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #ddd;
+}
+
+.category a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.categoryA {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color:black;
+}
+
+.categoryA a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Trending books */
+.trending {
+    display:flex;
+    flex-direction:row;
+}
+
+.trending img {
+    max-width: fit-content;
+    max-height: 150px;
+    padding: 50px;
+}
+
+.trending .hidden{
+    z-index:  -1;
+    visibility: hidden;
+}
+
+.trending .shown{
+    z-index:   999;
+    visibility: visible;
+}
+
+/* Popular categories */
+.categories {
+    padding: 20px 0;
+}
+
+.categories h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cat1, .cat2, .cat3, .cat4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Free books section */
+.freebooks {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.para {
+    margin-bottom: 20px;
+}
+
+.feedbackbutton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.feedbackbutton:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .category {
+        flex-wrap: wrap;
+    }
+
+    .category span {
+        flex: 1 1 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}
